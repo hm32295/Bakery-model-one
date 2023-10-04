@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAKRY MODEL FOUR</title>
+
+    <!--  CSS Normalize -->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!--  CSS Web Fonts  -->
+    <link rel="stylesheet" href="style/all.min.css">
+    
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Cairo:wght@200;400;500;700;800;900;1000&family=Indie+Flower&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&family=Open+Sans:ital,wght@1,300;1,800&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap"
+    rel="stylesheet">
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <!-- CSS Main -->
+
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/main.css">
+
+
+</head>
+<body>
+
+    
+    <nav class="nav ">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="#" class="logo">Hamza</a>
+
+        <ul class="nav-links">
+            <i class="uil uil-times navCloseBtn"></i>
+            <li id="home-nav"><a href="#">الرئيسية</a></li>
+            <li id="new-nav"><a href="#">توزيع الخبز</a></li>
+            <!-- <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li> -->
+        </ul>
+
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        <div class="search-box">
+            <i class="uil uil-search search-icon"></i>
+            <input type="text" placeholder="Search here..." />
+        </div>
+    </nav>
+
+
+
+    <div class="perant">
+
+                      
+        <div class="form-out container" id="form-out">
+        
+            <div class="right">
+                <div>
+
+                    <h2>تسجيل الخبز</h2>
+                </div>
+                <div>
+
+                    <input type="text" id="name-form-out" placeholder="بحث عن الإسم">
+                    <ul id="list-search-ou"></ul>
+                    <input type="number" id="number-form-out" placeholder="الكمية">
+                </div>
+                <div class="button">
+                      <input type="button" id="save-form-out" value="حفظ">
+                </div>
+            </div>
+            <div class="left">
+                <h2>معلومات الفرد</h2>
+                
+                <p id="p-left">
+                    هنا يتم عرض معلومات الأفراد
+                     كمية الخبز
+                      المعطاه والمتبقية خلال الشهر الجارى
+                </p>
+                
+                 <table id="table-left">
+                    
+                </table> 
+            </div>
+        
+        </div>
+
+        <div class="inputData container" id="form-in">
+            <div class="right">
+                <div>
+
+                    <h2>تسجيل فرد جديد</h2>
+                </div>
+                <div>
+
+                    
+                    <input type="text" id="name-form-in" placeholder="الإسم">
+                    <input type="number" id="number-form-in" placeholder="عدد الأفراد">
+                    <input type="number" id="national-form-in" placeholder="الرقم القومى">
+                    <input type="number" id="id-form-in" placeholder="الرقم الذكى">
+                    <input type="number" id="beard-form-in" placeholder="كمية الخبز">
+                    <input type="text" id="secret-form-in" placeholder="الرقم السرى">
+                    <input type="text" id="deler-form-in" placeholder="التاجر">
+                    <input type="text" id="noth-form-in" placeholder="ملاحظات">
+                </div>
+                <div class="button">
+                    <input type="button" id="clear-form-in" value="تنظيف">
+                    <input type="button" id="save-form-in" value="حفظ">
+                </div>    
+            </div>
+        </div>
+    
+
+            <div class="msg-error" id="msg-error">
+                <div class="text">
+                    <i class="fa-solid fa-xmark" id="close"></i>
+                    <p>Hello</p>
+                </div>
+            </div>
+    </div>
+
+
+
+    
+    
+    
+    <!-- End Data -->
+    
+    <script  src="js/data.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
